@@ -1,0 +1,134 @@
+/*
+p {
+    color: #EEEEEE;
+    margin: auto;
+    font-family: "Adobe Arabic";
+    text-align: center;
+    align-self: auto;
+}
+
+#ce {
+    text-align: center;
+    color: red;
+}
+
+.p {
+    margin: 10px;
+    border: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    color: #FFA500;
+}
+*/
+
+/*多重样式*/
+/*
+h1 {
+    color: #EEEEEE;
+    text-align: center;
+}
+
+hr {
+    color: #000;
+    margin-left: 20px;
+
+}
+
+p {
+    margin-left: 30px;
+}
+*/
+
+body {
+
+    background-color: antiquewhite;
+}
+
+#p1 {
+
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-style: inherit;
+    font-size: 10px;
+}
+
+#p2 {
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-align: right;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+#p3 {
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: justify;
+    word-spacing: 20px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#p4 {
+    text-indent: 20px;
+    word-spacing: 30px;
+    font-family: "Times New Roman";
+    font-size: 40px;
+}
+
+a:link {
+    color: #FF0000;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: aquamarine;
+    outline: inherit;
+    outline-color: aquamarine;
+    outline-style: dashed;
+    outline-width: 11px;
+}
+
+/* unvisited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* visited link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* mouse over link */
+a:active {
+    color: #0000FF;
+}
+
+/* selected link */
+
+h1, h2, h3, p {
+    color: burlywood;
+}
+
+p {
+    color: cadetblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.marked {
+    background-color: rebeccapurple;
+}
+
+.marked p {
+    color: chartreuse;
+
+}
+
+#header {
+
+    position: fixed;
+    top: 30px;
+    right: 5px;
+
+}
