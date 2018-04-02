@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        p {
+            width: 60px;
+            height: 60px;
+            background-color: coral;
+        }
+
+        .kuang {
+            border: 10px solid green;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<p>段落1</p>
+<p class="kuang" id="heizi">段落2</p>
+<p>段落3</p>
+
+<script type="text/javascript">
+
+    var box = document.getElementById("heizi");
+
+    var a = 0;
+    setInterval(function () {
+        a += 10;
+        box.style.marginLeft = a + "px";
+        if (a > 300) {
+            a = 0;
+        }
+    }, 30)
+
+</script>
+
+</body>
+</html>
